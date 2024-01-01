@@ -18,7 +18,6 @@ export default function Login() {
             body:JSON.stringify(user)
         })
         const json=await response.json();
-        console.log(json);
         if(json.success){
             setLogin(true);
             localStorage.setItem('token',json.authtoken);
