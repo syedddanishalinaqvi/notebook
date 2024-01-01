@@ -1,0 +1,87 @@
+.card{
+    border: 1px solid;
+    padding:10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card-body>p{
+    font-size: 20px;
+}
+.card-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-button>button{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.modal{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body>div>label{
+    color:#fff;
+    font-weight: 200;
+    font-size: 30px;
+}
+.modal-body>div>input{
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.modal-body>div>textarea{
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+.modal-buttons{
+    margin-top: 40px;
+}
+.modal-buttons>button{
+    font-size: 20px;
+    padding:10px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border:1px solid #fff;
+}

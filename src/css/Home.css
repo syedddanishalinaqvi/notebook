@@ -1,0 +1,80 @@
+.home{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    margin:20px;
+    height: 100vh;
+    width: 100vw-20px;
+    box-sizing: border-box;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.title>label{
+    font-size: 40px;
+    font-weight: 200;
+}
+.title>input{
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description>label{
+    font-size: 40px;
+    font-weight: 200;
+}
+.description>textarea{
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+.add-note{
+    margin-top: 20px;
+}
+.add-note>button{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    color:#fff;
+    border-radius:20px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.notes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.labels{
+    width:80vw;
+    margin: 30px 0 20px 0;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 20px;
+    color:#fff;
+    background-color: #000;
+    text-align: center;
+}
